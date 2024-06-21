@@ -1,0 +1,79 @@
+.skranji-regular {
+    font-family: "Skranji", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .skranji-bold {
+    font-family: "Skranji", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body, html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #788698;
+}
+
+
+.odin-banner{
+    display: flex;
+    margin: auto;
+}
+
+.container{
+    height: 700px;
+    width: 400px;
+    display: inline-block;
+    margin: 30px auto;
+    background: rgba(55, 72, 92, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border: 1px solid rgba(55, 72, 92, 0.65);
+
+}
+
+.main-title{
+    font-family: skranji;
+    font-size: 36px;
+    text-align: center;
+    color: #cd9f6a;
+}
+
+.recipes-list{
+    margin-top: 30px;
+    font-family: skranji;
+    font-weight: 400;
+    list-style: none;
+    text-align: center;
+}
+
+.recipes a{
+    text-decoration: none;
+    color: white;
+}
+
+.recipes a:hover{
+    text-decoration:wavy;
+    color: #8a7b54;
+}
+
+.recipes{
+    padding: 10px;
+    font-size: 20px;
+}
+
+
